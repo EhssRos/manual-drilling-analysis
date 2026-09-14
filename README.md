@@ -76,12 +76,7 @@ general diagnostic columns but are no longer referenced in the paper text.
 │       └── P<plate>_V<versuch>_<thickness>mm/Bo<n>/*.csv
 ├── sources/                 # citation verification: for every reference, what we
 │   │                         # cite it for, and what the original source actually says
-│   ├── Quellenliste_final_verifiziert.md   # final, most thorough pass (33/37 sources
-│   │                                        # confirmed against original abstract/text,
-│   │                                        # with quotes; documents corrections made
-│   │                                        # along the way, e.g. an author-list error
-│   │                                        # and one citation found to misrepresent
-│   │                                        # its source, both fixed in the paper)
+│   ├── Quellenliste_final_verifiziert.md   
 │   └── Quellenliste_vollstaendig.md        # earlier, first-pass source audit
 ├── scripts/
 │   ├── common.py                    # shared data-loading / feature utilities
