@@ -2,7 +2,7 @@
 
 Data and analysis scripts underlying:
 
-> Roshankar, E., Kröger-Lehmann, L., Flehmke, M., Dege, J.H., Schüppstuhl, T.
+> Roshankar, E., Flehmke, M., Dege, J.H., Schüppstuhl, T.
 > "What Does It Take to Imitate a Human Driller? A Skill Taxonomy and
 > Empirical Evaluation for Learning from Demonstration in Manual Aircraft
 > Assembly." CIRP CMS 2027.
@@ -76,12 +76,7 @@ general diagnostic columns but are no longer referenced in the paper text.
 │       └── P<plate>_V<versuch>_<thickness>mm/Bo<n>/*.csv
 ├── sources/                 # citation verification: for every reference, what we
 │   │                         # cite it for, and what the original source actually says
-│   ├── Quellenliste_final_verifiziert.md   # final, most thorough pass (33/37 sources
-│   │                                        # confirmed against original abstract/text,
-│   │                                        # with quotes; documents corrections made
-│   │                                        # along the way, e.g. an author-list error
-│   │                                        # and one citation found to misrepresent
-│   │                                        # its source, both fixed in the paper)
+│   ├── Quellenliste_final_verifiziert.md   
 │   └── Quellenliste_vollstaendig.md        # earlier, first-pass source audit
 ├── scripts/
 │   ├── common.py                    # shared data-loading / feature utilities
@@ -181,15 +176,7 @@ analysis developed, not as a second independent result.
 
 `sources/Quellenliste_final_verifiziert.md` documents, for every reference
 in the paper's bibliography, what we cite it for and what the original
-source actually says, quoting the abstract or accessible text directly
-where we could access it. This process caught several real errors along
-the way (e.g. an author-list mistake, and one citation whose claimed
-connection to drilling did not hold up against the actual source, later
-corrected in the paper text). Note this file reflects the bibliography at
-the time of that verification pass; a small number of citations were
-added, removed, or re-worded in the paper afterwards (see the paper's own
-text for the current, authoritative citation list).
-
+source actually says.
 ## Method summary
 
 The four-phase model (positioning / tip engagement / full engagement /
